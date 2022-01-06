@@ -18,7 +18,7 @@
     return maxProfit
 };
 
-// second approach
+// second approach.
 var maxProfit = function(prices) {
     var maxProfit = 0
     var left=0

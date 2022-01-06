@@ -10,6 +10,15 @@ function fibonacci(n) {
   }
   return cache[n];
 }
-
-
 fibonacci(6)
+
+// Another solution
+function fibonacci(n){
+  var dp = [0,1]
+
+  for(var x=2; x<=n; x++){
+    dp[x]=dp[x-1]+dp[x-2]
+  }
+
+  return dp[n]
+}

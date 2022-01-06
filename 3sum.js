@@ -3,6 +3,7 @@
  * @param {number[]} numbers
  * @param {number} target
  * @return {number[]}
+ * revisited
  */
  var twoSum = function(numbers, target) {
     let left = 0
