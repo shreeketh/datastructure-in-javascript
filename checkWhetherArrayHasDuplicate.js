@@ -3,7 +3,7 @@
  * @return {boolean}
  */
 var containsDuplicate = function (nums) {
-  // It works :p
+  // It works ;p
   // const dedupedArr = new Set([...nums])
   // return(dedupedArr.size !== nums.length)
   const map = {};

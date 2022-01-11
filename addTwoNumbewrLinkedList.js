@@ -1,5 +1,5 @@
 /**
- * Definition for singly-linked list.
+ * Definition for singly-linked listß
  * function ListNode(val) {
  *     this.val = val;
  *     this.next = null;

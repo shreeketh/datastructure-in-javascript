@@ -3,7 +3,7 @@
 /**
  * https://leetcode.com/problems/max-area-of-island/submissions/
  * @param {character[][]} grid
- * @return {number}
+ * @return {number}.
  */
  var numIslands = function (matrix) {
     function updateIsland(i, j) {

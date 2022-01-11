@@ -1,4 +1,4 @@
-class Node {
+class Node { 
     constructor(val, left, right){
         this.value = val;
         this.left = left;
