@@ -67,7 +67,7 @@ var solveSudoku = function (board) {
     const pos = getEmptyPosition();
 
     if (pos == null) {
-      // result = JSON.parse(JSON.stringify(board));
+      result = JSON.parse(JSON.stringify(board));
       solved = true;
       return;
     }
@@ -86,5 +86,7 @@ var solveSudoku = function (board) {
   }
 
   solve();
-  // return result;
+  return result;
 };
+
+
