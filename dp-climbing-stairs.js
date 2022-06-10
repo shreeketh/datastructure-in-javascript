@@ -40,5 +40,3 @@ var climbStairs = function (n) {
     
     return second
 };
-
-
